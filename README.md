@@ -1,4 +1,4 @@
-📊 Social Media Engagement Prediction (Machine Learning)
+Social Media Engagement Prediction (Machine Learning)
 
 This project explores how different content characteristics influence social media performance using machine learning regression models.
 Based on historical post data (media type, timing, caption length, hashtags, content category, and traffic source), the goal is to predict engagement-related metrics such as engagement rate, reach, likes, and followers gained.
@@ -9,6 +9,8 @@ Preventing data leakage in engagement metrics
 Interpreting feature importance to derive actionable content insights
 The outcome provides both predictive models and data-driven recommendations for optimizing content strategy.
 
+The data can be found here: https://www.kaggle.com/datasets/kundanbedmutha/instagram-analytics-dataset
+
 Initial regression models predicting follower growth achieved near-baseline performance, indicating limited explanatory power of post-level features for follower acquisition. This finding motivated a shift toward predicting engagement-related metrics, which are more directly influenced by content characteristics. 
 
 The reach prediction model leverages post-performance engagement signals (likes, comments, shares, saves) to explain how content is distributed. As such, it is intended for post-hoc analysis rather than pre-publication forecasting.
@@ -17,7 +19,7 @@ While reach can be predicted with high accuracy when impressions are included, r
 
 Impressions and reach are primarily driven by platform-level distribution mechanisms that are not captured by post-level metadata or engagement signals in this dataset.
 
-## 📌 Summary of Findings
+##  Summary of Findings
 
 This project explored the extent to which social media post performance can be explained and predicted using post-level metadata, engagement signals, and timing information. The dataset contains approximately 30,000 posts with content attributes (media type, category, caption length, hashtags), timing features, engagement metrics, and exposure metrics.
 
