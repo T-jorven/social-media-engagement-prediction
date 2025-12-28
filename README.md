@@ -1,4 +1,4 @@
-Social Media Engagement Prediction (Machine Learning)
+# Social Media Engagement Prediction (Machine Learning)
 
 This project explores how different content characteristics influence social media performance using machine learning regression models.
 Based on historical post data (media type, timing, caption length, hashtags, content category, and traffic source), the goal is to predict engagement-related metrics such as engagement rate, reach, likes, and followers gained.
